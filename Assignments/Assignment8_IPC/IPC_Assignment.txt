@@ -1,0 +1,34 @@
+1. Understanding of PIPE. Below program demostrating usage of pipe. 
+   - One program will open a pipe, write a number to pipe.                  
+   - Other program will open the same pipe, will read the number and print them.
+   - Close both the pipes
+
+   - Do the same with two relavent processes.	
+
+2. Producer - Consumer program using threads and semaphore 
+   - A queue will be shared among two threads 
+         a. Producer thread 
+         b. Consumer thread
+   - Producer thread will write a number in the queue
+   - Consumer should read the number from queue and print it on console only if the queue is not empty.
+
+3. Understanding of shared memory. Below program demostrating usage of shared memory. 
+   - One program to write strings to shared memory. 
+   - Number of strings and string patterns will be given by user from command line.
+   - Second program should read the number of strings and string patterns from shared memory region.
+   - Strings should be reversed and stored to at the same location.
+   - In both the programs, memory addresses should be printed where the strings are stored.
+
+4. Describe Named FIFO and Unnamed FIFO.
+    Write a program to copy data from file1 to file2 through named FIFO.
+    Program done with two relavent processes and unrelavent processes.
+    Example:
+    my_cpy file1.txt file2.txt #This command will copy content of file1.txt to file2.txt.
+
+5. Write a program to copy string from one process to another using unnamed pipe.
+
+6. Write a program to copy structure of your name, address, phone no from one process to another process using named pipe.
+
+7. Write a program to allow two way communication between process using shared memory.
+
+8. Implement message queue communication method between child and parent.

@@ -1,0 +1,1 @@
+This is example string to be read from 6.txt file

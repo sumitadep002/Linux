@@ -1,0 +1,16 @@
+what is copy on write?
+
+->Copy on Write or simply COW is a resource management technique. One of its main use is in the implementation of the fork system call in which it shares the virtual memory(pages) of the OS.
+
+How fork uses it?
+
+->fork() system call creates a duplicate process of parent proc ess which is called as child process.
+
+What is the benefit of using it?
+
+->It will create the copy of a memory page if a process tries to modify the shared memory page so that a modification done by a process will not affect the page which might be accessed by other process.
+
+
+->In UNIX like OS, fork() system call creates a duplicate process of the parent process which is called as the child process.
+
+The idea behind a copy-on-write is that when a parent process creates a child process then both of these processes initially will share the same pages in memory and these shared pages will be marked as copy-on-write which means that if any of these processes will try to modify the shared pages then only a copy of these pages will be created and the modifications will be done on the copy of pages by that process and thus not affecting the other process.

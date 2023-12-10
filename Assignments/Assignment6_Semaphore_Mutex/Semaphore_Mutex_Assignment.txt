@@ -1,0 +1,30 @@
+1. Explain the concept of concurrency
+   -> Need
+   -> Benifit
+   -> Types
+   -> Methods of implementation
+   -> Explain concurrency using an example(take some example outside of the reading material provided)
+
+2. Understanding of mutex.
+   - Write a program to create two threads. 
+   - One thread will write A to Z a file "temp.txt"
+   - Other thread will write a to z to the same file "temp.txt"
+   - Restriction is, A to Z or a to z should be continuous pattern, whichever is started first.
+   - Identify why and where mutex should be used. 
+   - If required, protect the critical region.
+
+3. Producer - Consumer program using semaphores
+   - A "circular buffer" will be shared among two threads 
+         a. Producer thread
+         b. Consumer thread
+   - Producer thread will write a number/numbers in the circular buffer
+   - Consumer should read the number from circular buffer and print it on console
+   - Write all numbers from 0 to 1000.
+   - Size of "circular buffer" is 16
+   - Display exact time taken for the program to execute
+   
+4. Write the above program using "mutex and conditional variables" instead of "semaphores"
+
+5. What is the difference between semaphore and mutex? Where to use individuals?
+
+

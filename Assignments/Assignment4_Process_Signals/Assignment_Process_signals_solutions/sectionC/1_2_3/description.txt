@@ -1,0 +1,18 @@
+1. run firefox with highest priority
+
+steps:
+
+i)pgrep firefox : to know pid of firefox
+ii)renice -19 pidof_firefox
+
+2. run firefox with lowest priority
+
+steps:
+
+i)renice +19 pidof_firefox
+
+3.run firefox with 10 nice value
+
+steps:
+
+ii)renice +10 pidof_firefox

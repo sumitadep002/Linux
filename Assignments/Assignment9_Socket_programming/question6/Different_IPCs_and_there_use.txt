@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+1. Pipes (Named/Unnamed): Pipes are used for communication between two related processes (parent-child or sibling processes) where one process writes to the pipe and the other reads from it. Pipes are unidirectional and can be either named (FIFO) or unnamed (regular pipe).
+
+2. Message Queues: Message Queues are used for communication between unrelated processes, where one process sends messages and the other receives them. Messages can have a priority and can be of fixed or variable size. Message Queues provide reliable and robust communication.
+
+3. Shared Memory: Shared Memory is used for communication between processes where a region of memory is shared among multiple processes. Processes can read and write to the shared memory region directly, allowing for fast and efficient communication.
+
+4. Sockets: Sockets are used for communication between processes running on different machines over a network. Sockets provide a flexible and powerful way to communicate between processes using various protocols such as TCP/IP, UDP, etc. Sockets are commonly used for network communication, client-server architectures, and distributed systems.
+
+
+The choice of IPC mechanism depends on the specific requirements of the communication between processes, such as the relationship between processes, the type of data being exchanged, the level of synchronization needed, and the scalability of the communication. It's important to carefully choose the appropriate IPC mechanism to ensure efficient and reliable communication between processes in a Linux environment.
+=======
+1. Pipes (Named/Unnamed): Pipes are used for communication between two related processes (parent-child or sibling processes) where one process writes to the pipe and the other reads from it. Pipes are unidirectional and can be either named (FIFO) or unnamed (regular pipe).
+
+2. Message Queues: Message Queues are used for communication between unrelated processes, where one process sends messages and the other receives them. Messages can have a priority and can be of fixed or variable size. Message Queues provide reliable and robust communication.
+
+3. Shared Memory: Shared Memory is used for communication between processes where a region of memory is shared among multiple processes. Processes can read and write to the shared memory region directly, allowing for fast and efficient communication.
+
+4. Sockets: Sockets are used for communication between processes running on different machines over a network. Sockets provide a flexible and powerful way to communicate between processes using various protocols such as TCP/IP, UDP, etc. Sockets are commonly used for network communication, client-server architectures, and distributed systems.
+
+
+The choice of IPC mechanism depends on the specific requirements of the communication between processes, such as the relationship between processes, the type of data being exchanged, the level of synchronization needed, and the scalability of the communication. It's important to carefully choose the appropriate IPC mechanism to ensure efficient and reliable communication between processes in a Linux environment.
+>>>>>>> f52763f2638bddc9d525298d831e7e86bb093de9

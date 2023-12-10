@@ -1,0 +1,97 @@
+Section A:
+ 		
+1.Create directory of your name and then create 4 files inside it
+a.txt, b.txt, c.txt and d.sh. And change the directory permission to
+only user and also files permission to only user such that
+
+commands : 
+mkdir sumit
+chmod 777 sumit
+cd sumit
+touch a.txt b.txt c.txt d.sh
+
+a)user can read and write the file a.txt and b.txt
+
+commands :
+chmod 600 a.txt
+chmod 600 b.txt
+
+
+ 
+b)user can write the file c.txt
+
+chmod 200 c.txt
+
+c)user can exectuable the file d.sh. 
+
+commands: 
+chmod 100 d.sh
+
+Make Contents of file d.sh:
+#/bin/sh
+ls -lh
+
+2.Change the permission of the previous directory to executable only.
+Analyze the output.
+
+3.Change the permission of the previous directory to read only.
+Analyze the output.
+
+4.Use echo to list the all files of your home directory.
+
+5.Use echo to list the all files of /etc/ directory
+
+6.Use echo to list the all files of /etc/ directory with extension name .conf
+
+7.Use echo to append your name to a.txt
+
+8.Use echo to list the files of /proc/
+
+
+Section B:
+
+1.Write a program to find sum and product of two no.s using a) expr b) let c) bc
+
+2.Write a program to perform floating point division
+
+3.Write a program to print calendar of current month in next year,previous years.
+For eg:- sep 2014,sep 2012 if current month is sep 2013
+
+4.Write a program to check whether given no.is even or odd
+
+5.___________
+
+a) Write a script to find biggest of three no.s
+b) To find avg of 3 no.s, read no.s from keyboard
+
+6.Write a script to check type of a traingle.Sides of the triangle should be
+provided as command line arguments.
+
+7. Write a script to print day of the week using a) elif b) case
+
+8.To check given year is leap or not
+
+Section C:
+
+1.Write a script to perform the following
+a) To count no.of processes which are running or ready in the system (Hint:- ps -e
+-o pid,ppid,cmd,stat, grep )
+b) List out foreground processes running in the system (ps suffix + in the state for
+the foreground processes)
+c) List out all processes whose parent is init
+
+2.Write a menu based script to perform following string operations
+a) To find length of a string
+c) Copying string
+d) Concatenation of strings
+e) Comparison of two strings
+f) Reversing a string
+
+3.Write a script to check whether given argument is a regular file or directory
+
+4.To check given year is leap or not
+
+5.Write a script to create 10 directories, say exam1,exam2,...,exam10 Report
+error if a directory/file exists with same name.
+
+6.Write a script to check each entry of a directory is a file or directory.

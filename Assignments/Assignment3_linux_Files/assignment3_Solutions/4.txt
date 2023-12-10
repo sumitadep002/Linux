@@ -1,0 +1,25 @@
+Exercises Files_in_linux
+1. Write a C program create new file, open it and write “Hello world” string to it.
+2. Write a C program to add 50 bytes data at end of the existing hex file.
+3. Write a C program to display a permission of the file
+4. Write a C program to reverse the content of the file.
+5. Write a C program to display the content of the file of the specific line.
+6. Write a program to read from a file and print the same.
+7. Write a shell Script that accepts two file names as command line arguments and compare two file
+contents and check whether contents are same or not. If they are same, then delete second file.
+8. Write a c program to change to permission of the file to real/write/execute for current user.
+9. Write a C program to find specific file in a specific directory using the file name passed in command
+line argument.
+10. Write a program to print your name and surname in a file. Print the file descriptor, message and
+number of bytes written.
+11. Print “hello world” from the program without use any printf or cout function.
+12. open a file that does not exist(print the file descriptor value) and print the error number. Hint: use
+#include<errno.h> and extern int errno; for printing the error message.
+13. write a program to open a file and print the file descriptor(Create the file if it does not exist). print
+error message in case of failure.
+14. Open a file in current directory, print the file descriptor, and close the file descriptor(Print the
+success or failure for file close).
+15. Write a program to open a file in read mode. set the cursor to 10th position in file. Print the current
+cursor position and read 6 bytes from the current cursor position. Print the bytes read.
+16. Make two file descriptors of the same file using dup(). use both file descriptors to write different
+messages, and check if we can use them interchangeably.

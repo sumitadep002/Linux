@@ -1,0 +1,3 @@
+it is unidirectional stream of data
+
+A process can be used as sender and another process can be used as receiver

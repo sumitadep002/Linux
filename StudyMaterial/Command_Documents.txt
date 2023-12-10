@@ -1,0 +1,141 @@
+history: to view command history
+
+chown: to change the ownership of the file/directory
+
+chown user:group filename
+
+ls -l to show file types and access permission
+
+env: displays all the environment variables
+
+Unset: remove a variable
+
+export variabl_Name = value
+
+/***************sudo commmands***********************/
+sudo adduser username: will add user with username
+
+sudo passwd -l 'username': to change the password of the user
+
+sudo userdel -r 'usernmae: to remove newly created user
+
+sudo usermod -a -G GROUPNAME: to remove a user from group
+
+finger: shows the information of all th user logged in
+
+finger username: shows the information of particular user
+
+/***************************remote commmunication***************/
+
+SSH username@IP: log into a remote l-inux machine using SSH
+
+dir: display the directories
+
+get filename: download a file from the remote to the local computer
+
+put filename: download'file' from remote to local computer
+
+quit: logout
+
+/*****************Process commands****************************/
+
+bg: to send the process to the background
+
+fg: to run a stopped process in the foreground
+
+top: details on all active process
+
+ps: give status of process running for a user
+
+ps PID: gives the status of a particular process
+
+pidof: gives the PID of a process
+
+kill PID: kills the process
+
+renice: Changes priority of an already running process
+
+df: gives information of free hard disk space on your system
+
+free: gives information free RAM on your system
+
+**********************flags**************************
+Commonly used options:
+ps: Displays a list of processes running in the current terminal session.
+ps -e: Shows all processes running on the system (all users).
+ps -u: Displays processes owned by a specific user. For example, ps -u username shows processes for username.
+ps -f: Provides full-format output, showing additional information such as the process ID (PID), parent process ID (PPID), CPU usage, etc.
+ps -l: Produces a long-format output, including additional details like the process's session ID, terminal, CPU time, and more.
+ps aux: A common combination of flags where a shows processes for all users, u provides a user-oriented format, and x includes processes without a controlling terminal (e.g., daemons).
+ps -ef: Another common combination showing all processes with full-format output.
+
+/**********************VI Editor************************************/
+
+i to insert cursor
+
+a write after cursor
+
+A write at the end of line
+
+ESC terminate insert mode
+
+u undo last changes
+
+U Undo all changes done to the line
+
+o insert new line
+
+dd delete the line
+
+D delete the content of the line after teh cursor
+
+dw delete word
+
+r replace character
+
+
+
+/*****************************************grep*************************************/
+
+grep -i <word> filename: will prints the lines which contains the <word>  -i for case sensitive operation
+
+grep -c <word> filename: will print the number of lines which contains unix
+
+grep -l <word> * : will print the name of the file which contains the specified pattern
+
+$grep –e "Agarwal" –e "Aggarwal" –e "Agrawal" geekfile.txt: to look multiple words
+
+
+
+/***************************ps and kill*******************************************/
+Sure! It seems like you're interested in learning about the ps and kill commands in Unix-like operating systems (e.g., Linux, macOS). These commands are used to manage processes running on your system.
+
+ps command:
+The ps command (short for "process status") is used to display information about the currently running processes on your system. It provides a snapshot of the processes at the time you execute the command. Here's the basic syntax:
+
+ps [options]
+Commonly used options:
+ps: Displays a list of processes running in the current terminal session.
+ps -e: Shows all processes running on the system (all users).
+ps -u: Displays processes owned by a specific user. For example, ps -u username shows processes for username.
+ps -f: Provides full-format output, showing additional information such as the process ID (PID), parent process ID (PPID), CPU usage, etc.
+ps -l: Produces a long-format output, including additional details like the process's session ID, terminal, CPU time, and more.
+ps aux: A common combination of flags where a shows processes for all users, u provides a user-oriented format, and x includes processes without a controlling terminal (e.g., daemons).
+ps -ef: Another common combination showing all processes with full-format output.
+kill command:
+The kill command is used to terminate or send signals to processes. The default signal sent by kill is SIGTERM, which allows the process to gracefully exit, but you can specify other signals if needed.
+
+scss
+Copy code
+kill [options] PID(s)
+Commonly used options:
+kill PID: Sends the default SIGTERM signal to the process with the specified PID, requesting it to terminate.
+kill -9 PID: Sends the SIGKILL signal to forcefully terminate the process with the specified PID. This signal cannot be caught or ignored by the process, so it's a last resort if a process is unresponsive to regular termination attempts.
+killall process_name: Terminates all processes with the given name. For example, killall firefox will terminate all processes named "firefox."
+kill -l: Lists all available signal names that can be used with kill. For example, kill -l will display a list of signals like SIGTERM, SIGKILL, SIGHUP, etc.
+Keep in mind that when using the kill command, you need to provide the correct PID of the process you want to terminate. You can obtain this information using the ps command, as explained above.
+
+Note: Be cautious when using the kill command with the -9 option (SIGKILL) as it forcefully terminates the process without giving it a chance to clean up. It should be used sparingly and only when necessary, as it may lead to data corruption or other issues if used on critical processes.
+
+
+

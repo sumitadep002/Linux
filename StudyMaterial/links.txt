@@ -1,0 +1,10 @@
+links:
+
+1) soft link: Link will be removed if original file removed or deleted
+cmd: ln -s
+deleting original file/dir will affect the soft link
+
+
+2)Hard link: renaming, Deleting or removing the file will not effect the link
+cmd: ln
+deleting original file/dir will not affect hard link

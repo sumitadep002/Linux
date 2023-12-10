@@ -1,0 +1,18 @@
+
+1. Understanding of thread and process, difference between both.
+
+2. Create two threads, print its PIDs & PPIDs.
+
+3. Make a program to check how two threads simultaneous works. One thread incrementing even number & print it on console and simultaneously 
+   second thread incrementing odd number & print it on console.
+
+4. - Write a program to create a thread, thread routine should increment a number in infinite loop. 
+   - Write a program to create a thread, thread routine should increment a number in infinite loop, main() should also increment a number and print the same. 
+   
+   For both the programs, starting number will be given as input from command line.
+   For both the programs, when user presses CTRL+C, the program should stop printing the number and should exit gracefully.
+   
+   NOTE: Try changing thread priority and observe the resulting behavior. 
+
+5. What you learn from this exercise. write down point wise.
+

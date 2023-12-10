@@ -1,0 +1,7 @@
+Zombie Process:
+
+-> A process is zombie process if it has been terminated but in process table it's entry still exists.
+
+-> To overcome this is situation we can use wait() system call should be used to preven parent process from begin executed before child process is terminated.
+
+-> So that parent process will only be executed after termination of child proccess.

@@ -1,0 +1,69 @@
+Script started on 2023-03-27 22:52:31+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="55"]
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ touch temp1.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ pwd ~
+/home/sumit
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls /
+[0m[01;36mbin[0m   [01;34mcdrom[0m  [01;34metc[0m   [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  swapfile  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34mdev[0m    [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [01;34msys[0m       [01;34musr[0m
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ echo *
+assignment3_typescript.txt Desktop Documents Downloads Music Pictures Public scaledge snap temp1.txt Templates Videos
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ echo *.
+*.
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ mkdir dir1 dir2
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ pwd
+/home/sumit
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ pwd dir1
+/home/sumit
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ cd dir1
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ../temp1.tt[Kxt ./dir[K[K[K[K./dir2/temp2.txt
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ ls
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ../temp.txt /
+cp: cannot stat '../temp.txt': No such file or directory
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ../temp.txt /[Kdir[K[K[K/dir1
+cp: cannot stat '../temp.txt': No such file or directory
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ../temp.txt /dir1~/dir1
+cp: cannot stat '../temp.txt': No such file or directory
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ../temp.txt ~/dir1[1P/dir1[Kls[Kcp ../temp1.txt ../dir2/temp2.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/dir1
+cp: cannot create regular file '/dir1': Permission denied
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ ls
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ cp ..[3Plscp ../temp1.txt /dir1/temp1.txt
+cp: cannot create regular file '/dir1/temp1.txt': No such file or directory
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ mv [K[K[Kls
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ mv ../dir2[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ mv dir2 dir1
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ cd dir1
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ ls
+[0m[01;34mdir2[0m
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ ls dir2
+temp2.txt
+]0;sumit@Asusvivobook: ~/dir1[01;32msumit@Asusvivobook[00m:[01;34m~/dir1[00m$ exit
+
+Script done on 2023-03-27 22:58:18+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-03-27 22:58:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="55"]
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ln [K[K[Kls dir1
+[0m[01;34mdir2[0m
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls dir1/dir2
+temp2.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ mvm [K[K[K[Kmv temp1.txt dir1
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ln dir1/dir2[K[K[K[K[K[K[K[K[Kincluding[K[K[K[K[K[K[K[K[Kdir1/temp2.txt dir1/dir2/;[Klink1
+ln: failed to access 'dir1/temp2.txt': No such file or directory
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ln dir1/temp2.txt dir1/dir2/link1[1P[1@1
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ln dir1/temp1.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls i dir1/dir2/temp2.tt[Kxt
+ls: cannot access 'i': No such file or directory
+dir1/dir2/temp2.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls i dir1/dir2/temp2.txt[C[1@-
+7110374 dir1/dir2/temp2.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls -ltr dir1/temp1
+ls: cannot access 'dir1/temp1': No such file or directory
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ 
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ 
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ 
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ 
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls -ltr dir1/temp1.txt
+-rw-rw-r-- 3 sumit sumit 0 Mar 27 22:52 dir1/temp1.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ ls -ltr dir1/temp1.txt[1@h[1P[Ch dir1/temp1.txt
+-rw-rw-r-- 3 sumit sumit 0 Mar 27 22:52 dir1/temp1.txt
+]0;sumit@Asusvivobook: ~[01;32msumit@Asusvivobook[00m:[01;34m~[00m$ exit
+
+Script done on 2023-03-27 23:08:52+05:30 [COMMAND_EXIT_CODE="0"]

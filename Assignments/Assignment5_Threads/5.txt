@@ -1,0 +1,6 @@
+5.What did you learn from this exercise. Write down point wise
+
+-> Threads can function simultaqnously.
+-> Threads are nothing but function pointers, are made to perform certain tasks.
+-> A process may have many threads associated with it.
+-> If two threads are associated with a same process then their process ID will be same.

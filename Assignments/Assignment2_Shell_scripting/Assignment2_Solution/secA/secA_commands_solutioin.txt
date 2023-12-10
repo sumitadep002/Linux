@@ -1,0 +1,48 @@
+Section A:
+ 		
+1.Create directory of your name and then create 4 files inside it
+a.txt, b.txt, c.txt and d.sh. And change the directory permission to
+only user and also files permission to only user such that
+
+commands : 
+mkdir sumit
+chmod 777 sumit
+cd sumit
+touch a.txt b.txt c.txt d.sh
+
+a)user can read and write the file a.txt and b.txt
+
+commands :
+chmod 600 a.txt
+chmod 600 b.txt
+
+
+ 
+b)user can write the file c.txt
+
+chmod 200 c.txt
+
+c)user can exectuable the file d.sh. 
+
+commands: 
+chmod 100 d.sh
+
+Make Contents of file d.sh:
+#/bin/sh
+ls -lh
+
+2.Change the permission of the previous directory to executable only.
+Analyze the output.
+
+3.Change the permission of the previous directory to read only.
+Analyze the output.
+
+4.Use echo to list the all files of your home directory.
+
+5.Use echo to list the all files of /etc/ directory
+
+6.Use echo to list the all files of /etc/ directory with extension name .conf
+
+7.Use echo to append your name to a.txt
+
+8.Use echo to list the files of /proc/
